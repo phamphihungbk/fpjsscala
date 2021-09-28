@@ -1,0 +1,24 @@
+{
+	"name": "fpjs",
+	"description": "The repository to practice functional programming with Javascript.",
+	"version": "1.0.0",
+	"main": "main.js",
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/phamphihungbk/fpjs.git"
+	},
+	"keywords": [],
+	"author": "HUNG PHAM",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/phamphihungbk/fpjs/issues"
+	},
+	"homepage": "https://github.com/phamphihungbk/fpjs#readme",
+	"dependencies": {
+		"immutable": "^4.0.0-rc.15"
+	}
+}
