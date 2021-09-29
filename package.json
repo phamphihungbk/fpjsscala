@@ -19,6 +19,7 @@
 	},
 	"homepage": "https://github.com/phamphihungbk/fpjs#readme",
 	"dependencies": {
-		"immutable": "^4.0.0-rc.15"
+		"immutable": "^4.0.0-rc.15",
+		"ramda": "^0.27.1"
 	}
 }
