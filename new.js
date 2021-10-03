@@ -27,7 +27,7 @@ function addAggregate(aggregates, report) {
 }
 
 function aggregate(events) {
-	let aggregates = {};
+	const aggregates = {};
 
 	for (let i = 0; i < events.length; i++) {
 		let item = prepareReportItem(events[i]);
@@ -38,10 +38,10 @@ function aggregate(events) {
 }
 
 function formatAggregates(aggregates){
-	let result = [];
+	const result = [];
 
 	for (let key in aggregates) {
-		result.push({datapoint: key, events: aggregates[key]});
+		result[result.length] = ({datapoint: key, events: aggregates[key]});
 	}
 
 	return result;
