@@ -3,6 +3,7 @@
 	"description": "The repository to practice functional programming with Javascript.",
 	"version": "1.0.0",
 	"main": "main.js",
+	"type": "module",
 	"devDependencies": {},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +21,7 @@
 	"homepage": "https://github.com/phamphihungbk/fpjs#readme",
 	"dependencies": {
 		"immutable": "^4.0.0-rc.15",
-		"ramda": "^0.27.1"
+		"ramda": "^0.27.1",
+		"rxjs": "^7.5.5"
 	}
 }
